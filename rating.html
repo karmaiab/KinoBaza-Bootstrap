@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+    <title>Rating Page</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -32,10 +32,10 @@
 
                 <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
                     <ul class="nav nav-pills">
-                        <li class="active"><a href="index.html">Главная</a></li>
+                        <li><a href="index.html">Главная</a></li>
                         <li><a href="films.html">Фильмы</a></li>
                         <li><a href="#">Сериалы</a></li>
-                        <li><a href="rating.html">Рейтинг</a></li>
+                        <li class="active"><a href="rating.html">Рейтинг</a></li>
                         <li><a href="contact.html">Конткты</a></li>
                     </ul>
                 </div>
@@ -57,81 +57,59 @@
                             </div>
                         </div>
                     </form>
-                    <h2>Новые фильмы</h2>
+                    <h1>Рейтинг Фильмов</h1>
                     <hr>
-                    <div class="row">
 
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="show.html"><img src="assets/img/inter.png" alt="интерстеллар"></a>
-                            <div class="film_label"><a href="show.html">Интерстеллар</a></div>
-                        </div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Фильм</th>
+                                <th class="text-center">Год</th>
+                                <th class="text-center">Рейтинг</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col-lg-1 col-md-1 col=xs-2">
+                                    <img class="img-responsive img-thumbnail" src="assets/img/inter.png" alt="интерстеллар">
+                                </td>
+                                <td class="vert-align"><a href="show.html">Интерстеллар</a></td>
+                                <td class="text-center vert-align">2014</td>
+                                <td class="text-center vert-align"><span class="badge">8.1</span></td>
+                            </tr>
 
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="#"><img src="assets/img/matrix.png" alt="матрица"></a>
-                            <div class="film_label"><a href="#">Матрица</a></div>
-                        </div>
+                            <tr>
+                                <td class="col-lg-1 col-md-1 col=xs-2">
+                                    <img class="img-responsive img-thumbnail" src="assets/img/cloud.png" alt="Облачный атлас">
+                                </td>
+                                <td class="vert-align"><a href="#">Облачный атлас</a></td>
+                                <td class="text-center vert-align">2012</td>
+                                <td class="text-center vert-align"><span class="badge">8.0</span></td>
+                            </tr>
 
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="#"><img src="assets/img/cloud.png" alt="облачный атлас"></a>
-                            <div class="film_label"><a href="#">Облачный атлас</a></div>
-                        </div>
+                            <tr>
+                                <td class="col-lg-1 col-md-1 col=xs-2">
+                                    <img class="img-responsive img-thumbnail" src="assets/img/matrix.png" alt="Матрица">
+                                </td>
+                                <td class="vert-align"><a href="#">Матрица</a></td>
+                                <td class="text-center vert-align">1999</td>
+                                <td class="text-center vert-align"><span class="badge">7.9</span></td>
+                            </tr>
 
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="#"><img src="assets/img/max.png" alt="безумный макс"></a>
-                            <div class="film_label"><a href="#">Безумный макс</a></div>
-                        </div>
+                            <tr>
+                                <td class="col-lg-1 col-md-1 col=xs-2">
+                                    <img class="img-responsive img-thumbnail" src="assets/img/max.png" alt="Безумный макс">
+                                </td>
+                                <td class="vert-align"><a href="#">Безумный макс</a></td>
+                                <td class="text-center vert-align">2015</td>
+                                <td class="text-center vert-align"><span class="badge">7.8</span></td>
+                            </tr>
 
-                    </div>
+                        </tbody>
 
-                    <div class="margin-8"></div>
-                    <h2>Новые сериалы</h2>
-                    <hr>
-                    <div class="row">
+                    </table>
 
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="#"><img src="assets/img/xfiles.png" alt=""></a>
-                            <div class="film_label"><a href="#">Секретные материалы</a></div>
-                        </div>
-
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="#"><img src="assets/img/silicon.png" alt=""></a>
-                            <div class="film_label"><a href="#">Кремневая долина</a></div>
-                        </div>
-
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="#"><img src="assets/img/dead.png" alt=""></a>
-                            <div class="film_label"><a href="#">Ходячие мертвецы</a></div>
-                        </div>
-
-                        <div class="films_block col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <a href="#"><img src="assets/img/breakingbad.png" alt=""></a>
-                            <div class="film_label"><a href="#">Во все тяжкие</a></div>
-                        </div>
-
-                    </div>
-
-                    <div class="margin-8"></div>
-                    <a href="#"><h3>Как снимали Интерстеллар</h3></a>
-                    <hr>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Nostrum, aut autem. Dicta reprehenderit beatae, unde voluptates 
-                        eaque saepe error magnam perferendis ab porro tenetur, nesciunt ut 
-                        in vel mollitia pariatur!
-                    </p>
-                    <a href="#" class="btn btn-warning pull-right">Читать</a>
-
-                    <div class="margin-8"></div>
-                    <a href="#"><h3>Актер Том Хенкс поделился впечатлением о фестивале</h3></a>
-                    <hr>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Voluptas quod possimus dolor nihil eveniet voluptatem iusto 
-                        odit animi, earum ab, illum tempore culpa fugiat. 
-                        Eos esse optio odit molestiae hic!
-                    </p>
-                    <a href="#" class="btn btn-warning pull-right">Читать</a>
-                    
                     <div class="margin-8 clear"></div>
                 </div>
 
